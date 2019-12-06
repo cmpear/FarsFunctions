@@ -32,7 +32,7 @@ fars_read <- function(filename) {
 # modified for my computer
 make_filename <- function(year) {
   year <- as.integer(year)
-  temp<-sprintf("extdata\\accident_%d.csv.bz2", year)
+  temp<-sprintf("extdata/accident_%d.csv.bz2", year)
   system.file(temp,package = "FarsFunctions2")
 }
 
